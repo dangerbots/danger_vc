@@ -74,6 +74,7 @@ python3 main.py # Run the bot
 ```
 
 ###  🔥Credits🔥
+- [Anonymous么kid](http://t.me/danger_of_telegram): Dev✨️
 - [Einstein Alvaro](http://t.me/alvaa_Robot): Dev✨️
 - [DangerBots](https://t.me/danger_bots) Our Bot Project🔥
 - [Olivia](https://t.me/Olivia_Music_Robot) Music Bot🎶
