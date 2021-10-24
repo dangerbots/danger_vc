@@ -117,7 +117,7 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "**𝖬𝗎𝗌𝗂𝖼 𝖠𝗌𝗌𝗂𝗌𝗍𝖺𝗇𝗍 𝖩𝗈𝗂𝗇𝖾𝖽 𝖳𝗁𝗂𝗌 𝖦𝗋𝗈𝗎𝗉 𝖥𝗈𝗋 𝖯𝗅𝖺𝗒 𝖬𝗎𝗓𝗂𝖼🎶🎵**")
+                        message.chat.id, "**『TG』☆Queen ☆࿐★𝖠𝗌𝗌𝗂𝗌𝗍𝖺𝗇𝗍 𝖩𝗈𝗂𝗇𝖾𝖽 𝖳𝗁𝗂𝗌 𝖦𝗋𝗈𝗎𝗉 𝖥𝗈𝗋 𝖯𝗅𝖺𝗒 𝖬𝗎𝗓𝗂𝖼🎶🎵**")
 
                 except UserAlreadyParticipant:
                     pass
@@ -128,7 +128,7 @@ async def play(_, message: Message):
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>❰mr_MUSlCIEN❱ 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝗨𝘀𝗲𝗿𝗕𝗼𝘁 𝗜𝘀 𝗡𝗼𝘁 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗖𝗵𝗮𝘁' 𝗔𝘀𝗸 𝗔𝗱𝗺𝗶𝗻 𝗧𝗼 𝗦𝗲𝗻𝗱 /𝗽𝗹𝗮𝘆 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗙𝗼𝗿 𝗙𝗶𝗿𝘀𝘁 𝗧𝗶𝗺𝗲 𝗧𝗼 𝗔𝗱𝗱 𝗜𝘁 ✨️❤</i>")
+            f"<i>❰『TG』☆Queen ☆࿐★❱ 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝗨𝘀𝗲𝗿𝗕𝗼𝘁 𝗜𝘀 𝗡𝗼𝘁 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗖𝗵𝗮𝘁' 𝗔𝘀𝗸 𝗔𝗱𝗺𝗶𝗻 𝗧𝗼 𝗦𝗲𝗻𝗱 /𝗽𝗹𝗮𝘆 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗙𝗼𝗿 𝗙𝗶𝗿𝘀𝘁 𝗧𝗶𝗺𝗲 𝗧𝗼 𝗔𝗱𝗱 𝗜𝘁 ✨️❤</i>")
         return
     
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
@@ -210,10 +210,10 @@ async def play(_, message: Message):
                     [
                         [
                             InlineKeyboardButton(
-                            text="𝖢𝖧𝖠𝖭𝖭𝖤𝖫📡",
+                            text="DEV ❣️",
                             url=f"https://t.me/danger_bots"),
                         InlineKeyboardButton(
-                            text="𝖦𝖱𝖮𝖴𝖯🌟",
+                            text="SUPPORT🦋",
                             url=f"https://t.me/dangerbots")
 
                         ]
@@ -264,10 +264,10 @@ async def play(_, message: Message):
                     [
                       
                         InlineKeyboardButton(
-                            text="𝖢𝖧𝖠𝖭𝖭𝖤𝖫📡",
+                            text="DEV ❣️",
                             url=f"https://t.me/danger_bots"),
                         InlineKeyboardButton(
-                            text="𝖦𝖱𝖮𝖴𝖯🌟",
+                            text="SUPPORT🦋",
                             url=f"https://t.me/dangerbots")
                     ]
                 ]
@@ -284,7 +284,7 @@ async def play(_, message: Message):
         position = await queues.put(message.chat.id, file=file_path)
         await message.reply_photo(
         photo="final.png", 
-        caption="**❰Olivia🧚‍♀️ ❘ @danger_bots🔥❱ 𝗦𝗼𝗻𝗴 𝗣𝗼𝘀𝗶𝘁𝗶𝗼𝗻 🎶✨️** {}".format(
+        caption="**『TG』☆Queen ☆࿐★ ❘ @danger_bots🔥❱ 𝗦𝗼𝗻𝗴 𝗣𝗼𝘀𝗶𝘁𝗶𝗼𝗻 🎶✨️** {}".format(
         position
         ),
         reply_markup=keyboard)
@@ -295,7 +295,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="**❰Olivia🧚‍♀️ ❘ @danger_bots🔥❱ Now 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 𝗔𝘁 🎶✨️`{}`...**".format(
+        caption="**『TG』☆Queen ☆࿐★ ❘ @danger_bots🔥❱ Now 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 𝗔𝘁 🎶✨️`{}`...**".format(
         message.chat.title
         ), )
         os.remove("final.png")
